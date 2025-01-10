@@ -1,26 +1,12 @@
-<template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-</template>
-
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+<script setup>
+import "./assets/css/index.css";
+import NoiseFilter from "./components/background/NoiseFilter.vue";
+import HeaderNav from "./components/HeaderNav.vue";
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<template>
+  <NoiseFilter/>
+   <div class="pt-8 w-auto mx-4 sm:mx-12 lg:mx-24">
+     <HeaderNav/>
+   </div>
+</template>

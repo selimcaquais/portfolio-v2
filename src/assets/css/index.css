@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'DM-Mono';
+    src: url('/public/fonts/DMMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: 'DM-Mono-medium';
+    src: url('/public/fonts/DMMono-Medium.ttf') format('truetype');
+    font-weight: medium;
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: 'DM-Mono-medium-italic';
+    src: url('/public/fonts/DMMono-MediumItalic.ttf') format('truetype');
+    font-weight: medium;
+    font-style: italic; 
+}
+
+@font-face {
+    font-family: 'Anton';
+    src: url('/public/fonts/Anton-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal; 
+}
+
+body{
+    background-color:#F1ECDA;
+    font-family: DM-Mono;
+    z-index: 20;
+    overflow: hidden;
+}

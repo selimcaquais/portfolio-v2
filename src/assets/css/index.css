@@ -30,9 +30,62 @@
     font-style: normal; 
 }
 
+html{
+    position:relative;
+    overflow-x: hidden;
+}
+
 body{
     background-color:#F1ECDA;
     font-family: DM-Mono;
-    z-index: 20;
-    overflow: hidden;
+    overflow-x: hidden;
+}
+
+
+@media (min-width: 	340px) {
+    html,body {
+      overflow-x: hidden;
+    }
+}
+
+@media (min-width: 	500px) {
+    html,body {
+      overflow-x: hidden;
+    }
+}
+
+@media (min-width: 	640px) {
+    html,body {
+      overflow-x: hidden;
+    }
+}
+
+@media (min-width: 	768px) {
+    html,body {
+      overflow-x: hidden;
+    }
+}
+
+@media (min-width: 	1024px) {
+    html,body {
+      overflow-x: hidden;
+    }
+}
+
+@media (min-width: 	1280px) {
+    html,body {
+      overflow-x: hidden;
+    }
+}
+
+@media (min-width: 	1536px) {
+    html,body {
+      overflow-x: hidden;
+    }
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+    html,body {
+        overflow-x: hidden !important;
+    }
 }

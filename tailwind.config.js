@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       screens: {
         'xxs' : '340px',
+        'mobile' : '500px',
       },
       fontSize: {
         'xxs' : '10px',
@@ -17,11 +18,12 @@ module.exports = {
         DM_Mono_medium_italic: ['DM-Mono-medium-italic', 'serif'],
       },
       backgroundImage:{
-        'noise':"url('../images/noise.png')"
+        'noise':"url('../images/noise2.png')"
       },
       colors: {
         primary: '#1B1919',
-        background:'#F1ECDA'
+        secondary:'#5F8CE5',
+        background:'#F1ECDA',
     },
     },
   },
